@@ -1,0 +1,11 @@
+# Secrets: never commit API keys
+.env
+
+# Raw downloads (re-creatable from sources listed in data/SOURCES.md)
+data/raw/
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
